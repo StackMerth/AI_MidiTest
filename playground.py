@@ -17,7 +17,7 @@ matplotlib.use("Agg")
 sys.modules["pylab"] = pylab
 
 model_repo = "JammyMachina/elec-gmusic-familized-model-13-12__17-35-53"
-n_bar_generated = 35
+n_bar_generated = 25
 # model_repo = "JammyMachina/improved_4bars-mdl"
 # n_bar_generated = 4
 
