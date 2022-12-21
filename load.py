@@ -9,7 +9,7 @@ class LoadModel:
     Example usage:
 
     # if loading model and tokenizer from Huggingface
-    model_repo = "misnaej/the-jam-machine"
+    model_repo = "misnaej/the-jam-machine-1024"
     model, tokenizer = LoadModel(
         model_repo, from_huggingface=True
     ).load_model_and_tokenizer()
