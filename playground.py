@@ -17,7 +17,7 @@ matplotlib.use("Agg")
 sys.modules["pylab"] = pylab
 
 model_repo = "JammyMachina/elec-gmusic-familized-model-13-12__17-35-53"
-n_bar_generated = 15
+n_bar_generated = 25
 # model_repo = "JammyMachina/improved_4bars-mdl"
 # n_bar_generated = 4
 
@@ -124,15 +124,15 @@ def instrument_row(default_inst, row_id):
                 label="Instrument",
             )
             temp = gr.Dropdown(
-                [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+                [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2],
                 value=0.7,
                 label="Creativity",
             )
-            density = gr.Dropdown([1, 2, 3, 4, 5, 6, 7 , 8, 9, 10], value=3, label="Note Density")
+            density = gr.Dropdown([1, 2, 3, 4, 5, 6, 7 , 8, 9, 10, 11, 12, 13, 14], value=3, label="Note Density")
 
         with gr.Column(scale=3):
             output_txt = gr.Textbox(
-                label="output", lines=10, max_lines=100, show_label=False
+                label="output", lines=10, max_lines=160, show_label=False
             )
         with gr.Column(scale=1, min_width=100):
             inst_audio = gr.Audio(label="TRACK Audio", show_label=True)
