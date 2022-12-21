@@ -173,9 +173,9 @@ with gr.Blocks() as demo:
         """
     )
     track1_md = gr.Markdown(""" ## TRACK 1 """)
-    instrument_row("Drums", 0)
+    instrument_row("Drums", 2)
     track1_md = gr.Markdown(""" ## TRACK 2 """)
-    instrument_row("Synth Bass 1", 1)
+    instrument_row("Synth Bass 1", 2)
     track1_md = gr.Markdown(""" ## TRACK 2 """)
     instrument_row("Synth Lead Square", 2)
     # instrument_row("Piano")
