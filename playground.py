@@ -17,7 +17,7 @@ matplotlib.use("Agg")
 sys.modules["pylab"] = pylab
 
 model_repo = "JammyMachina/elec-gmusic-familized-model-13-12__17-35-53"
-n_bar_generated = 8
+n_bar_generated = 15
 # model_repo = "JammyMachina/improved_4bars-mdl"
 # n_bar_generated = 4
 
@@ -132,7 +132,7 @@ def instrument_row(default_inst, row_id):
 
         with gr.Column(scale=3):
             output_txt = gr.Textbox(
-                label="output", lines=50, max_lines=100, show_label=False
+                label="output", lines=50, max_lines=10, show_label=False
             )
         with gr.Column(scale=1, min_width=100):
             inst_audio = gr.Audio(label="TRACK Audio", show_label=True)
