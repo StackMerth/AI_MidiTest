@@ -1,0 +1,17 @@
+gradio
+matplotlib
+matplotlib
+numpy
+joblib
+pathlib
+transformers
+miditok == 1.3.2
+librosa
+pretty_midi
+pydub
+scipy
+datetime
+torch
+torchvision
+pyFluidSynth
+accelerate
