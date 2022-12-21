@@ -132,7 +132,7 @@ def instrument_row(default_inst, row_id):
 
         with gr.Column(scale=3):
             output_txt = gr.Textbox(
-                label="output", lines=10, max_lines=160, show_label=False
+                label="output", lines=10, max_lines=350, show_label=False
             )
         with gr.Column(scale=1, min_width=100):
             inst_audio = gr.Audio(label="TRACK Audio", show_label=True)
