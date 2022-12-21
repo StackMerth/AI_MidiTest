@@ -17,7 +17,7 @@ matplotlib.use("Agg")
 sys.modules["pylab"] = pylab
 
 model_repo = "JammyMachina/elec-gmusic-familized-model-13-12__17-35-53"
-n_bar_generated = 25
+n_bar_generated = 35
 # model_repo = "JammyMachina/improved_4bars-mdl"
 # n_bar_generated = 4
 
@@ -173,11 +173,11 @@ with gr.Blocks() as demo:
         """
     )
     track1_md = gr.Markdown(""" ## TRACK 1 """)
-    instrument_row("Drums", 4)
+    instrument_row("Drums", 400)
     track1_md = gr.Markdown(""" ## TRACK 2 """)
-    instrument_row("Synth Bass 1", 5)
+    instrument_row("Synth Bass 1", 500)
     track1_md = gr.Markdown(""" ## TRACK 2 """)
-    instrument_row("Synth Lead Square", 6)
+    instrument_row("Synth Lead Square", 100)
     # instrument_row("Piano")
 
 demo.launch(debug=True)
