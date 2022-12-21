@@ -128,11 +128,11 @@ def instrument_row(default_inst, row_id):
                 value=0.7,
                 label="Creativity",
             )
-            density = gr.Dropdown([1, 2, 3], value=3, label="Note Density")
+            density = gr.Dropdown([1, 2, 3, 4, 5, 6, 7 , 8, 9, 10], value=3, label="Note Density")
 
         with gr.Column(scale=3):
             output_txt = gr.Textbox(
-                label="output", lines=10, max_lines=10, show_label=False
+                label="output", lines=50, max_lines=100, show_label=False
             )
         with gr.Column(scale=1, min_width=100):
             inst_audio = gr.Audio(label="TRACK Audio", show_label=True)
